@@ -1,0 +1,78 @@
+.card {
+    width: 300px;
+    border-radius: 13px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px grey;
+    font-family: sans-serif;
+    background-color: white;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.card .promo {
+    position: absolute;
+    background-color: rgb(195, 187, 187);
+    color: white;
+    font-size: 12px;
+    padding: 4px 8px;
+    border-radius: 4px;
+    top: 10px;
+    left: 4px;
+}
+
+.card .discount {
+    position: absolute;
+    background-color: rgb(64, 140, 247);
+    color: white;
+    font-weight: bold;
+    padding: 6px 12px;
+    border-radius: 0 0 8px 0;
+    bottom: 20px;
+    left: 0;
+}
+
+.card .time {
+    position: absolute;
+    background-color: rgb(245, 235, 235);
+    color: black;
+    font-weight: bold;
+    padding: 4px 8px;
+    right: 4px;
+    bottom: 10px;
+    border: none;
+    border-radius: 35px;
+}
+
+.card-content {
+    padding: 16px;
+}
+
+.card-content h3 {
+    margin: 0;
+    color: black;
+    font-size: 14px;
+}
+
+.card-content p {
+    margin: 4px 0;
+    color: grey;
+    font-size: 13px;
+}
+
+.card-content .safety {
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    color: gray;
+    margin-top: 8px;
+}
+
+.card-content .safety img {
+    width: 40px;
+    height: 20px;
+    margin-right: 8px;
+}
